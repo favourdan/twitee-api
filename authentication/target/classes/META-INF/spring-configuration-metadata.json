@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "org.tm30.security.config.RSAKeyProperties",
+      "sourceType": "org.tm30.security.config.RSAKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "org.tm30.security.config.RSAKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "org.tm30.security.config.RSAKeyProperties"
+    }
+  ],
+  "hints": []
+}
